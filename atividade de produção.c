@@ -1,39 +1,40 @@
-//calculadora que realiza operações matemáticas
+//usuÃ¡rio github:larissaslv
+//calculadora que realiza operaÃ§Ãµes matemÃ¡ticas
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 
 int main(void) 
 {
-	//soma de dois números
+	//soma de dois nÃºmeros
 	
 	int op;
 	float raiz,nmr,nmr1,nmr2,soma,multiplicacao,divisao,potencia;
 	//Scanf pega o valor de puts;
 	puts("Nome: Larissa Silva Santos");
-	puts("Curso: Análise e desenvolvimento de sistemas");
+	puts("Curso: AnÃ¡lise e desenvolvimento de sistemas");
 	puts("Universidade: La Salle");
-	puts("Matrícula:202214126");
-	//realizar as operações matemáticas
-	puts("Digite qual operaçao deseja realizar");
-	puts("Digite 1 para raiz quadrada e potencia ou Digite 2 Para Soma, Divisao e Multiplicaçao\n");
+	puts("MatrÃ­cula:202214126");
+	//realizar as operaÃ§Ãµes matemÃ¡ticas
+	puts("Digite qual operaÃ§ao deseja realizar");
+	puts("Digite 1 para raiz quadrada e potencia ou Digite 2 Para Soma, Divisao e MultiplicaÃ§ao\n");
 	printf(" Digite 1 ou 2:\n "); 
 	scanf("%d",&op);
 	
 	if (op==1) 
-	 {printf(" Digite o número\n ");
+	 {printf(" Digite o nÃºmero\n ");
 	 scanf("%f",&nmr);
 	 raiz= sqrt(nmr);
 	 printf(" Raiz: %f \n ", raiz);
 	 
-	 potencia= pow(nmr,2); //nmr é a base e 2 o expoente.
+	 potencia= pow(nmr,2); //nmr Ã© a base e 2 o expoente.
 	 printf ("Potencia:%f\n ", potencia);
 	 
 	}
 	else 
-	 {printf(" Digite o primeiro número:\n ");
+	 {printf(" Digite o primeiro nÃºmero:\n ");
 	 scanf("%f",&nmr1);
-	 printf(" Digite o segundo número: \n ");
+	 printf(" Digite o segundo nÃºmero: \n ");
 	 scanf("%f",&nmr2); 
 	 
      
